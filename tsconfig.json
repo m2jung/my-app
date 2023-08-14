@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/components/units/pre-main/Pre-main.index.js", "src/components/units/pre-main/Pre-main.styles.js", "pages/pre-main/index.js", "src/components/units/pre-main/login/Login.index.js", "src/components/units/pre-main/login/Login-check.js", "src/components/units/main/Main.index.js", "src/components/units/main/Main.styles.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
